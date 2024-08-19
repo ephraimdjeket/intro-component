@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body
+  class="bg-mobile bg-no-repeat bg-cover bg-center bg-fixed bg-custom-pink font-Poppins md-custom:bg-desktop md-custom:h-full">
+  <div class="flex flex-col items-center justify-center md-custom:flex-row md-custom:my-32">
+    <div class="mt-20 pb-16 text-center max-w-80 text-white md-custom:text-left md-custom:max-w-lg md-custom:pr-12">
+      <h1 class="font-bold text-2xl mx-auto pb-4 md-custom:text-5xl">Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+        understanding how developers think is invaluable.</p>
+    </div> <!-- h1 and p container-->
+    <div>
+      <div
+        class="bg-custom-purple text-center w-80 h-24 rounded-lg drop-shadow-2xl mb-6 text-white flex justify-center items-center md-custom:w-form-w-desk">
+        <div class="max-w-48 mx-auto md-custom:max-w-none"> <span class="font-bold">Try it free 7 days </span>then<br
+            class="md-custom:hidden">
+          $20/mo.
+          thereafter
+        </div>
+      </div>
+
+      <div
+        class="bg-white rounded-lg w-form-w-mob h-form-h-mob mb-16 md-custom:w-form-w-desk md-custom:h-form-h-desk md-custom:flex md-custom:flex-col md-custom:items-center md-custom:justify-center">
+        <form class="flex flex-col justify-center items-center" action="">
+          <div class="form-wrapper">
+            <label class="sr-only" for="firstName">First Name</label>
+            <input class="focus:outline-none" type="text" id="firstName" placeholder="First Name">
+          </div>
+
+          <div class="form-wrapper">
+            <label class="sr-only" for="lastName">Last Name</label>
+            <input class="focus:outline-none" type="text" id="lastName" placeholder="Last Name">
+          </div>
+
+          <div class="form-wrapper">
+            <label class="sr-only" for="email">Email Address</label>
+            <input class="focus:outline-none" type="email" id="email" placeholder="Email Address">
+          </div>
+
+          <div class="form-wrapper">
+            <label class="sr-only" for="password">Password</label>
+            <input class="focus:outline-none" type="password" id="password" placeholder="Password">
+          </div>
+
+          <div
+            class="bg-custom-green text-center w-72 h-14 rounded-md-custom text-white flex justify-center mt-4 font-bold mb-2 hover:opacity-50 cursor-pointer">
+            <button type="submit">CLAIM YOUR FREE TRIAL</button>
+          </div>
+          <div class="text-center text-gray-500 max-w-60 text-xs md-custom:max-w-none ">By clicking the button, you are
+            agreeing
+            to our
+            <span class="text-custom-pink font-bold ">Terms
+              and Services</span>
+          </div>
+        </form>
+      </div>
+
+    </div> <!-- purple box and form container-->
+  </div> <!-- Content container-->
+</body>
+
+</html>
