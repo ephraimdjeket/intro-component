@@ -7,3 +7,13 @@
 .form-wrapper {
   @apply w-72 h-14 border border-gray-400 py-4 pl-5 mt-6 rounded-md-custom font-bold md-custom:w-input-w-desk;
 }
+
+.bg-desktop {
+  @apply bg-no-repeat bg-cover;
+  background-image: url("../assets/bg-intro-desktop.png");
+}
+
+.bg-mobile {
+  @apply bg-no-repeat bg-cover;
+  background-image: url("../assets/bg-intro-mobile.png");
+}

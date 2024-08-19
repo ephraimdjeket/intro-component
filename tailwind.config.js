@@ -3,10 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "public/index.html"],
   theme: {
     extend: {
-      backgroundImage: {
-        "desktop": "url('../assets/bg-intro-desktop.png')",
-        "mobile": "url('../assets/bg-intro-mobile.png')",
-      },
       colors: {
         "custom-pink": "#FF7979",
         "custom-green": "#38CC8B",
