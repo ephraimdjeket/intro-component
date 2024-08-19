@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "desktop": "url('../assets/bg-intro-desktop.png')",
-        "mobile": "url('../assets/bg-intro-mobile.png')",
+        "desktop": "url('/assets/bg-intro-desktop.png')",
+        "mobile": "url('/assets/bg-intro-mobile.png')",
       },
       colors: {
         "custom-pink": "#FF7979",
