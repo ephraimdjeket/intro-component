@@ -683,7 +683,7 @@ video {
 }
 
 .bg-mobile {
-  background-image: url("../assets/bg-intro-mobile.png");
+  background-image: url("../public/images/bg-intro-mobile.png");
 }
 
 .bg-cover {
@@ -768,12 +768,6 @@ video {
   font-weight: 700;
 }
 
-@media (min-width: 839px) {
-  .form-wrapper {
-    width: 460px;
-  }
-}
-
 .hover\:opacity-50:hover {
   opacity: 0.5;
 }
@@ -783,7 +777,7 @@ video {
   outline-offset: 2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1231px) {
   .md\:my-32 {
     margin-top: 8rem;
     margin-bottom: 8rem;
@@ -847,7 +841,7 @@ video {
   }
 }
 
-@media (min-width: 839px) {
+@media (min-width: 1231px) {
   .md-custom\:my-32 {
     margin-top: 8rem;
     margin-bottom: 8rem;
@@ -883,6 +877,7 @@ video {
 
   .md-custom\:flex-row {
     flex-direction: row;
+    margin: 100px;
   }
 
   .md-custom\:flex-col {
@@ -898,7 +893,7 @@ video {
   }
 
   .md-custom\:bg-desktop {
-    background-image: url("../assets/bg-intro-desktop.png");
+    background-image: url("../public/images/bg-intro-desktop.png");
   }
 
   .md-custom\:pr-12 {

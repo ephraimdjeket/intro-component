@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .form-wrapper {
-  @apply w-72 h-14 border border-gray-400 py-4 pl-5 mt-6 rounded-md-custom font-bold md-custom:w-input-w-desk;
+  @apply w-72 h-14 border border-gray-400 py-4 pl-5 mt-6 rounded-md-custom font-bold md-custom:w-3/4;
 }

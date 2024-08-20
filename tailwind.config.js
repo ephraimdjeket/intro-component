@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "desktop": "url('/assets/bg-intro-desktop.png')",
-        "mobile": "url('/assets/bg-intro-mobile.png')",
+        "desktop": "url('/public/images/bg-intro-desktop.png')",
+        "mobile": "url('/public/images/bg-intro-mobile.png')",
       },
       colors: {
         "custom-pink": "#FF7979",
@@ -15,7 +15,6 @@ module.exports = {
       },
       width: {
         "form-w-desk": "540px",
-        "input-w-desk": "460px",
         "form-w-mob": "327px",
       },
       height: {
@@ -26,7 +25,7 @@ module.exports = {
         "Poppins": "Poppins, sans-serif",
       },
       screens: {
-        "md-custom": "839px",
+        "md-custom": "1231px",
       },
     },
   },
