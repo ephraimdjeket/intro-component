@@ -4,7 +4,7 @@
  <h1>Intro component with sign-up form</h1>
  <h3>
     <!-- Netlify Live -->
-    <a href="https://hilarious-lebkuchen-d3b14e.netlify.app/">
+    <a href="https://live-bunny.netlify.app">
       Live
     </a>
     <span>&nbsp;|&nbsp;</span>
