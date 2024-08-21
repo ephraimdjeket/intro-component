@@ -693,6 +693,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-mobile{
+  background-image: url('../images/bg-intro-mobile.png');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -817,6 +821,10 @@ video {
 
   .md-custom\:flex-row{
     flex-direction: row;
+  }
+
+  .md-custom\:bg-desktop{
+    background-image: url('../images/bg-intro-desktop.png');
   }
 
   .md-custom\:p-24{

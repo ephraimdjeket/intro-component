@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/*.{html,js, png}"],
+  content: ["./public/**.{html,js, png}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "desktop": "url('../images/bg-intro-desktop.png')",
+        "mobile": "url('../images/bg-intro-mobile.png')",
+      },
       colors: {
         "custom-pink": "#FF7979",
         "custom-green": "#38CC8B",
