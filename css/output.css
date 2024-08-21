@@ -606,7 +606,7 @@ video {
 }
 
 .h-form-h-mob{
-  height: 452px;
+  height: 482px;
 }
 
 .w-80{
@@ -667,10 +667,6 @@ video {
 
 .rounded-md{
   border-radius: 0.375rem;
-}
-
-.border{
-  border-width: 1px;
 }
 
 .bg-custom-green{
@@ -737,6 +733,11 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold{

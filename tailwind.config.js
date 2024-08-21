@@ -18,7 +18,7 @@ module.exports = {
         "form-w-mob": "327px",
       },
       height: {
-        "form-h-mob": "452px",
+        "form-h-mob": "482px",
         "form-h-desk": "524px",
       },
       fontFamily: {
